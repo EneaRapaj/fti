@@ -1,0 +1,31 @@
+2024-04-19 18:13:58,581 INFO o.s.b.StartupInfoLogger [main] Starting SpringBootRestApiPostgresqlApplication using Java 21.0.2 with PID 7072 (C:\Users\User\Desktop\LeksionSeminar\Programim cloud\Laboratori1\fti\target\classes started by User in C:\Users\User\Desktop\LeksionSeminar\Programim cloud\Laboratori1\fti)
+2024-04-19 18:13:58,613 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-19 18:14:01,317 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 18:14:01,530 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 183 ms. Found 2 JPA repository interfaces.
+2024-04-19 18:14:04,580 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-04-19 18:14:04,609 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-19 18:14:04,617 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-19 18:14:04,618 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-04-19 18:14:04,981 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-19 18:14:04,986 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6117 ms
+2024-04-19 18:14:05,960 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 18:14:06,305 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-04-19 18:14:06,312 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-04-19 18:14:07,111 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19 18:14:07,184 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-19 18:14:09,093 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@106459d9
+2024-04-19 18:14:09,105 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-19 18:14:09,283 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-19 18:14:12,122 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19 18:14:12,977 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 18:14:14,619 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 18:14:16,432 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-19 18:14:16,479 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-19 18:14:16,517 INFO o.s.b.StartupInfoLogger [main] Started SpringBootRestApiPostgresqlApplication in 19.117 seconds (process running for 21.819)
+2024-04-19 18:14:26,494 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-19 18:14:26,495 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-19 18:14:26,503 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2024-04-19 18:14:26,606 INFO c.h.s.c.AuthorRestController [http-nio-8080-exec-1] Getting all authors
+2024-04-19 18:14:33,164 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 18:14:33,170 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-19 18:14:37,883 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

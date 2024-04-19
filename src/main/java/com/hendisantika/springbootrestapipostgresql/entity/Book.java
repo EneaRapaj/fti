@@ -22,6 +22,7 @@ import java.util.List;
  * Time: 22:05
  * To change this template use File | Settings | File Templates.
  */
+//Entiteti perkon me  nje rresht te plote te nje tabele ne db ne kete rast tabela book.
 @Entity
 public class Book {
 

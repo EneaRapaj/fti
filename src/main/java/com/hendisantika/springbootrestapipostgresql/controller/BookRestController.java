@@ -77,3 +77,12 @@ public class BookRestController {
         repository.deleteAll();
     }
 }
+//DelteMapping i perket delete ne HTTP dhe sherben per te fshire.
+//PostMapping i perket post  ne HTTP dhe sherben per te postuar ose ruajtur.
+//GetMapping i perket get ne HTTP dhe sherben per te marre nga backend.
+//PutMapping i perket put ne HTTP dhe sherben per te vendosur.
+//@RequestMapping("/api/books") eshte prefix ne nje path
+// RequestBody per te thene se metoda post ka nje trup
+//Path variable qe sherben per Url ne fillim vihet request mapping dhe me pas url.
+// autowired sherben per te importuar
+//pathh variable sherben per te marre tipin variablit dhe per ta futur funksion

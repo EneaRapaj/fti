@@ -20,3 +20,5 @@ import java.util.List;
 public interface BookRepository extends JpaRepository<Book, Long> {
     List<Book> findByName(String name);
 }
+//Book eshte emri entitetit dhe Long eshte tipi id entitetit.
+// Eshte nje interface qe ka disa metoda te implementuar nga springu qe perdoret me shumti
